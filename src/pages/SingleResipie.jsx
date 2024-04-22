@@ -32,8 +32,8 @@ function SingleResipie() {
         <h1 className="text-4xl mb-5">Recipe elements</h1>
         <img src={data.image} alt="" className="w-full h-80 object-cover rounded mb-5" />
         <h1 className="text-4xl mb-5">{data.title}</h1>
-        <h2 className="mb-5 text-2xl letter">Ingredients: {data.ingredients}   </h2>
-        <h3 className="text-2xl mb-5">Cooking time: {data.cookingTime}</h3>
+        <h2 className="mb-5 text-2xl letter">Ingredients:{data.ingredients} {""}</h2>
+        <h3 className="text-2xl mb-5">Cooking time: {data.cookingTime} minutes</h3>
         <h3 className="text-2xl mb-5">Method: {data.method}</h3>
         <Link className="bg-red-500 p-2  text-white flex justify-center mx-auto w-20 rounded px-4" to={'/'}>Back</Link>
       </div>

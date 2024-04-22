@@ -74,7 +74,7 @@ navigate("/")
 <p className='mb-3 -mt-2'>
 Ingredients: 
   {ingredients.map((ing)=>{
- return <span key="ing"> {ing}  </span>
+ return <span key="ing"> {ing}, </span>
   })}
 </p>
 <FormInput name="cookingTime" type="number" label="Cooking time"/>
